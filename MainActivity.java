@@ -62,4 +62,16 @@ public class MainActivity extends AppCompatActivity
             tv.setText("failed");
         }
     }
+//----------------------------------------------if user hase alredy signed in-------------------------------------//
+//    @Override
+//    protected void onStart()
+//    {
+//        account=GoogleSignIn.getLastSignedInAccount(this);
+//        if (account!=null)
+//        {
+//            System.out.println(account.getEmail()+"        "+account.getDisplayName());
+//            tv.setText("Emai:"+account.getEmail()+"\nName:"+account.getDisplayName());
+//        }
+//        super.onStart();
+//    }
 }
